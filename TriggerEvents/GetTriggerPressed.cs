@@ -15,6 +15,7 @@ namespace HutongGames.PlayMaker.Actions
 		[CheckForComponent(typeof(VRTK.VRTK_ControllerEvents))]    
 		public FsmOwnerDefault gameObject;
 
+		[Tooltip("This will be true if the trigger is squeezed about half way in.")]
 		public FsmBool triggerPressed;
 
 		public FsmBool everyFrame;
