@@ -16,7 +16,7 @@ namespace HutongGames.PlayMaker.Actions
 		public FsmOwnerDefault gameObject;
 
 		[Tooltip("The layers to ignore when raycasting to find floors.")]
-		[ObjectType(typeof(LayerMask))]
+		[UIHint(UIHint.Layer)]
 		public FsmInt layersToIgnore;
 		[ObjectType(typeof(VRTK.VRTK_BodyPhysics.FallingRestrictors))]
 		[Tooltip("A check to see if the drop to nearest floor should take place. If the selected restrictor is still over the current floor then the drop to nearest floor will not occur. Works well for being able to lean over ledges and look down. Only works for falling down not teleporting up.")]
