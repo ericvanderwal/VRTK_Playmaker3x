@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace HutongGames.PlayMaker.Actions
 {
-	[ActionCategory("VRTK")]
+	[ActionCategory("VRTK Pointer")]
 	[Tooltip("Set Straight Pointer Custom Appearance.")]
 
 	public class  SetStraightPointerCustomAppearance : FsmStateAction

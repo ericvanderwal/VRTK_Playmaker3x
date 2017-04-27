@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace HutongGames.PlayMaker.Actions
 {
-	[ActionCategory("VRTK")]
+	[ActionCategory("VRTK Locomotion")]
 	[Tooltip("Set move in place settings settings for VRTK.")]
 
 	public class  SetMoveInPlace : FsmStateAction

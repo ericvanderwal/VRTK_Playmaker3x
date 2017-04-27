@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace HutongGames.PlayMaker.Actions
 {
-	[ActionCategory("VRTK")]
+	[ActionCategory("VRTK Locomotion")]
 	[Tooltip("Enable teleport settings for Body Physics for VRTK.")]
 
 	public class  SetBodyPhysicsEnableTeleport : FsmStateAction

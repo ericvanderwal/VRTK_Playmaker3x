@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace HutongGames.PlayMaker.Actions
 {
-	[ActionCategory("VRTK")]
+	[ActionCategory("VRTK Pointer")]
 	[Tooltip("Set Pointer Destination Marker Settings.")]
 
 	public class  SetPointerDestinationMarkerSettings : FsmStateAction

@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace HutongGames.PlayMaker.Actions
 {
-	[ActionCategory("VRTK")]
+	[ActionCategory("VRTK Locomotion")]
 	[Tooltip("Set basic teleport settings for VRTK.")]
 
 	public class  SetBasicTeleport : FsmStateAction

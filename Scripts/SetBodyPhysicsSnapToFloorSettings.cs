@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace HutongGames.PlayMaker.Actions
 {
-	[ActionCategory("VRTK")]
+	[ActionCategory("VRTK Locomotion")]
 	[Tooltip("Enable Snap to Floor Settings for Body Physics for VRTK.")]
 
 	public class  SetBodyPhysicsSnapToFloorSettings : FsmStateAction

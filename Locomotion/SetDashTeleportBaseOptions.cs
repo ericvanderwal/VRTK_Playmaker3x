@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace HutongGames.PlayMaker.Actions
 {
-	[ActionCategory("VRTK")]
+	[ActionCategory("VRTK Locomotion")]
 	[Tooltip("Set dash teleport base option settings for VRTK.")]
 
 	public class  SetDashTeleportBaseOptions : FsmStateAction
