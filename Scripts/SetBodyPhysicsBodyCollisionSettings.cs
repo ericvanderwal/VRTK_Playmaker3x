@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace HutongGames.PlayMaker.Actions
 {
-	[ActionCategory("VRTK")]
+	[ActionCategory("VRTK Locomotion")]
 	[Tooltip("Set body physics body collisions settings for VRTK.")]
 
 	public class  SetBodyPhysicsBodyCollisionSettings : FsmStateAction
