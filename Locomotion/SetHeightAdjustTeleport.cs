@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace HutongGames.PlayMaker.Actions
 {
-	[ActionCategory("VRTK")]
+	[ActionCategory("VRTK Locomotion")]
 	[Tooltip("Set height adjust teleport settings for VRTK.")]
 
 	public class  SetHeightAdjustTeleport : FsmStateAction
