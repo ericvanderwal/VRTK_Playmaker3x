@@ -7,7 +7,7 @@ using VRTK;
 namespace HutongGames.PlayMaker.Actions
 {
 	[ActionCategory("VRTK Interaction")]
-	[Tooltip("Get Game Object in SnapZone.")]
+	[Tooltip("Get Game Object entered the SnapZone.")]
 	
 	public class  ObjectEnteredSnapDropZone : FsmStateAction
 	{
@@ -15,7 +15,7 @@ namespace HutongGames.PlayMaker.Actions
 		[CheckForComponent(typeof(VRTK.VRTK_SnapDropZone))]    
 		public FsmOwnerDefault gameObject;
 		
-		[TitleAttribute("Snapped Game Object")]
+		[TitleAttribute("Entered Game Object")]
 		public FsmGameObject snapZoneObject;
 		
 		private	VRTK.UnityEventHelper.VRTK_SnapDropZone_UnityEvents snapEvents;
