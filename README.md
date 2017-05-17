@@ -28,6 +28,14 @@ This project can be downloaded in full for free from : https://github.com/dumbga
 
 Tutorials about this project can be found online at: https://www.youtube.com/channel/UCyRBYRGl9v_byeKxT4GLG_A
 
+## Version 2.0 Changes
+
+There have been some changes since Version 1.0 in order to support VRTK 3.1.0. Please note the follow changes below.
+
+SetBezierPointerApperance  
+MaximumLength was changed from a float to a Vector2 per changes in VRTK 3.1.0. If you are using this action in a state, you may need to update it. If you are not using it, no action nessesary.
+
+
 ## Bugs
 
 Currently no major bugs have been reported, however this is a work in progress.
