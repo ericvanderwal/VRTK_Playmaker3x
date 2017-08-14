@@ -4,6 +4,37 @@ These c# files are created to be used in conjunction with the Unity3d asset Play
 
 The following project is released under the MIT license as stated below. 
 
+## Important - Read First
+
+The current master version to be used together with the current VRTK Github version (3.3.0 beta). **Always backup your projects before updating **   
+
+Use the 3.2.0 branch for VRTK 3.2.0, or the 3.1.0 for VRTK 3.1.0. 
+
+## Updating
+
+If you are updating from 3.2.0 or 3.1.0, to 3.3.0, make sure to backup your project first. Then remove all the VRTK playmaker actions and replace the folder entirely. The 3.3.0 does include legacy actions from 3.2.0/3.1.0 that are no longer in use. I am currently in the process of marking them all obsolete (as I find them). They will not break your project, but they rely on script that are no longer in use for VRTK. They are included however to not break any updates.
+
+Once finished updating, you may need open some actions in your FSM to correct them. Some actions have new variable fields added or removed. This was unavoidable as VRTK continues to update.
+
+Specifically these actions:
+
+getControllerVisible  
+setControllerOpacity  
+toggleControllerVisbility  
+getControllerVelocity  
+GetGrabPressed  
+GetGripPressed  
+GetMenuPressed (aka, button two).  
+GetUiClickPressed  
+GetPointerPressed  
+GetUsePressed  
+SetBodyPhysicsSnapToFloorSettings  
+SetDashTeleportHeightAdjustOptions  
+pointerDestinationInfoExit  
+pointerDestinationInfo  
+AltSetPointerDestinationMarkerSettings  
+
+
 ## License
 
 **Copyright 2017 Eric Vander Wal**
