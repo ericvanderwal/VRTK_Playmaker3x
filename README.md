@@ -8,7 +8,7 @@ The following project is released under the MIT license as stated below.
 
 The current master version to be used together with the current VRTK Github version (3.3.0 beta). **Always backup your projects before updating **   
 
-Use the 3.2.0 branch for VRTK 3.2.0, or the 3.1.0 for VRTK 3.1.0. 
+Tested and working with the most current version of Playmaker from the asset store, as well as the most current version of steam VR from the asset store.
 
 ## Updating
 
