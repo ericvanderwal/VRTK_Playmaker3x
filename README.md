@@ -53,7 +53,7 @@ If you are interested in contributing to this project, please contact me private
 
 ## Project Source
 
-This project can be downloaded in full for free from : https://github.com/dumbgamedev/VRTK_Playmaker3x
+This project can be downloaded in full for free from : https://github.com/ericvanderwal/VRTK_Playmaker3x
 
 ## Tutorials
 
